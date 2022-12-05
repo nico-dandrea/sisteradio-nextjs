@@ -8,3 +8,13 @@ export type User = {
   id: number
   name: string
 }
+
+export type BusinessEntity = {
+  _id: string
+  fullname: string
+  dni_cuil: string
+  address: string
+  latlng: [lat:number,lng:number]
+  phone: string
+  email: string
+}

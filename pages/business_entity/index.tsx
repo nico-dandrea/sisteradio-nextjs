@@ -3,7 +3,7 @@ import { BusinessEntity } from "../../interfaces";
 
 import clientPromise from "../../lib/mongodb";
 import Layout from "../../components/Layout";
-import List from "../../components/List";
+import List from "../../components/business_entity/List";
 
 type Props = {
   items: BusinessEntity[];
